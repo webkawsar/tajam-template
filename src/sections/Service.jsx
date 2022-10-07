@@ -3,7 +3,7 @@ import React from "react";
 const Service = () => {
   return (
     <>
-      <section id="section-part">
+      <section id="section-part" name='services'>
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

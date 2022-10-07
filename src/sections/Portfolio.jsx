@@ -3,7 +3,7 @@ import React from "react";
 const Portfolio = () => {
   return (
     <>
-      <section id="project">
+      <section id="project" name='project'>
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-6 col-6">

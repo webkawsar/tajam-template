@@ -3,7 +3,7 @@ import React from "react";
 const Main = () => {
   return (
     <>
-      <section id="banner-part">
+      <section id="banner-part" name='main'>
         <div className="container">
           <div className="row banner-slider">
             <div className="col-lg-10 m-auto">

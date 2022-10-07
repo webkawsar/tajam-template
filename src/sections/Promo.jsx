@@ -1,9 +1,9 @@
 import React from "react";
 
-const Video = () => {
+const Promo = () => {
   return (
     <>
-      <section id="video-part">
+      <section id="video-part" name="promo">
         <div className="container">
           <div className="row">
             <div className="col-lg-2 m-auto">
@@ -27,4 +27,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default Promo;

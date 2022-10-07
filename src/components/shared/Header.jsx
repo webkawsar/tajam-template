@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -6,7 +7,11 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light stciky-top">
         <div className="container ms">
           <a className="navbar-brand" href="#">
-            <img src="img/main-logo.png" alt="main-logo" className="img-fluid" />
+            <img
+              src="img/main-logo.png"
+              alt="main-logo"
+              className="img-fluid"
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -22,45 +27,92 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#banner-part">
+                <Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  className="nav-link"
+                  to="main"
+                >
                   HOME
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about-part">
+                <Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  className="nav-link"
+                  to="about"
+                >
                   ABOUT
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#video-part">
-                  VEDIO
-                </a>
+                <Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  className="nav-link"
+                  to="promo"
+                >
+                  VIDEO
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section-part">
+                <Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  className="nav-link"
+                  to="services"
+                >
                   EXPERTISE
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#team">
+                <Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  className="nav-link"
+                  to="team"
+                >
                   TEAMS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#project">
+                <Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  className="nav-link"
+                  to="project"
+                >
                   WORKS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#team-two">
-                  {" "}
+                <Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  className="nav-link"
+                  to="testimonial"
+                >
                   PEOPLE SAY
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  className="nav-link"
+                  to="contact"
+                >
                   CONTACT
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
