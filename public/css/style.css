@@ -655,3 +655,17 @@ ul {
     opacity: 1;
   }
 }
+
+/*** Scroll to Top ***/
+.scrollToTopIcon {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  z-index: 999;
+  display: none;
+}
+
+.visible {
+  display: block;
+}

@@ -12,8 +12,6 @@ const Main = () => {
     autoplaySpeed: 2000,
   };
 
-
-
   return (
     <>
       <section id="banner-part" name="main">

@@ -11,6 +11,7 @@ import Testimonial from './sections/Testimonial';
 // Import css files for slider
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import ScrollToTop from './components/ScrollToTop';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Portfolio />
         <Testimonial />
         <Contact />
+        <ScrollToTop />
       </Layout>
     </>
   );
