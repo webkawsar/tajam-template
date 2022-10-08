@@ -10,8 +10,8 @@ const Team = () => {
     slidesToScroll: 1,
     dots: true,
     arrows: false,
-    autoplay: false,
-    autoplaySpeed: 1000,
+    autoplay: true,
+    autoplaySpeed: 1500,
   };
 
   return (
