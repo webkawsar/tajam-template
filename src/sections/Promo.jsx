@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import VenoBox from 'venobox';
+
+
 
 const Promo = () => {
+
+  useEffect(() => {
+
+    new VenoBox({
+      selector: '.venobox',
+      spinner: 'flow',
+      maxWidth: '600px',
+      autoplay: false
+    });
+
+  }, [])
+
+
   return (
     <>
       <section id="video-part" name="promo">
@@ -10,8 +26,8 @@ const Promo = () => {
               <div className="video-icon text-center">
                 <a
                   className="venobox"
-                  data-autoplay="true"
                   data-vbtype="video"
+                  title="tajam - template"
                   href="https://youtu.be/9KqUlIY2Aew"
                 >
                   <i className="fab fa-youtube video-i"></i>
