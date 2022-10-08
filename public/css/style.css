@@ -132,7 +132,7 @@ ul {
   padding: 70px;
 }
 
-.about-text h2 {
+/* .about-text h2 {
   color: #413d4b;
   font-family: "Playfair Display", serif;
   font-size: 22px;
@@ -140,7 +140,7 @@ ul {
   text-transform: uppercase;
   margin-bottom: 0 !important;
   padding-bottom: 30px;
-}
+} */
 .about-text p {
   color: #716e78;
   font-family: "Roboto", sans-serif;

@@ -1,4 +1,28 @@
 import React from "react";
+import styled, { css } from "styled-components";
+
+const H2Styled = styled.h2`
+  color: #413d4b;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0 !important;
+  padding-bottom: 30px;
+  span {
+    text-transform: lowercase
+  }
+  span:hover {
+    text-transform: uppercase
+  }
+  &&:hover {
+    color: green;
+  }
+
+  ${props => props.about && css`
+    color: red
+  `}
+`;
 
 const About = () => {
   return (
@@ -17,7 +41,7 @@ const About = () => {
             </div>
             <div className="col-lg-7">
               <div className="about-text">
-                <h2>OUR STORY</h2>
+                <H2Styled about='true'>OUR STORY <span>Hi</span></H2Styled>
                 <p>
                   This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
                   vel velit auctor aliquet. Aenean sollicitudin, lorem quis
