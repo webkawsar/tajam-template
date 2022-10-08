@@ -9,7 +9,7 @@ const Promo = () => {
 
     new VenoBox({
       selector: '.venobox',
-      spinner: 'flow',
+      spinner: 'circle-fade',
       maxWidth: '600px',
       autoplay: false
     });
