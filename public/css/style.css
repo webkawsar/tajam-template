@@ -448,8 +448,8 @@ ul {
   position: absolute;
   z-index: 100;
   color: #ffffff;
-  top: 77%;
-  left: 26%;
+  top: 38%;
+  left: -10%;
   font-size: 20px;
   cursor: pointer;
 }
@@ -457,8 +457,8 @@ ul {
   position: absolute;
   z-index: 100;
   color: #ffffff;
-  top: 77%;
-  right: 28%;
+  top: 38%;
+  right: -10%;
   font-size: 20px;
   cursor: pointer;
 }
